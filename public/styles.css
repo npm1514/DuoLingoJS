@@ -1,8 +1,145 @@
 body, header, footer {
-    width: 100%;
+  width: 100%;
+  background: #0d64b0;
+  margin: 0;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  border: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #fff;
+  font-family: 'Open Sans Condensed';
+  font-size: 40px;
+  font-weight: bold;
+}
+h2 {
+  color: #000;
+  font-family: 'Open Sans Condensed';
+  font-weight: lighter;
+  font-stretch: expanded;
+}
+h3 {
+  color: #fff;
+  font-family: 'Open Sans Condensed';
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 90px;
+  position: fixed;
+  z-index: 100;
+}
+.headcontain {
+  height: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+.devlogo {
+  width: 400px;
+  height: 90px;
+  float: left;
+  margin: 5px;
+  margin-left: 10px;
+  background-image: url("logo_whiteletters.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.login {
+  width: max-content;
+  float: right;
+  line-height: 100%;
+  margin: 25px;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 10px;
+}
+.login h2 {
+  padding: 10px 20px;
+}
+.mainbody {
+  display: block;
+  width: 100%;
+}
+.backimg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.backimg img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 75%;
+  opacity: 0.1;
+}
+.headspace {
+  height: 90px;
+  width: 100%;
+}
+.fakecode, .start {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.start {
+  width: 100px;
+  background-color: #7eb530;
+  margin: auto;
+  padding: 6px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+footer {
+  margin: 0;
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: #292c2f;
+  text-align: center;
+}
+
+footer h3 {
+  color: #8d8d8d;
+  font-size: 20px;
+}
+
+footer hr {
+  width: 90%;
+  margin: 25px;
+}
+
+footer img {
+  width: 300px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .devlogo {
+    width: 90px;
+    height: 90px;
+    background-image: url("logo_noletters.png");
+    background-size: 78px 78px;
   }
-  p, h1, h2, h3, h4, h5, h6 {
-    border: 0;
-    margin: 0;
-  }
-  
+
+}

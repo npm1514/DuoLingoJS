@@ -24,5 +24,8 @@ angular.module("DuoLingoJS").controller("mainCtrl", function($scope, mainService
         $scope.products = response;
       });
     };
+
+
+
+
   });
-  
